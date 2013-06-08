@@ -1,0 +1,31 @@
+{
+  "name": "web.denglu",
+  "version": "0.0.0",
+  "description": "*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mehj/web.denglu.git"
+  },
+  "author": "",
+  "license": "Personal",
+  "readmeFilename": "README.md",
+  "gitHead": "4fa071614743c8aac5a6f2bc0d2197cd52a78b20",
+  "dependencies": {
+    "express": "~3.2.6",
+    "connect-dynamodb": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-coffeelint": "0.0.6",
+    "grunt-contrib-jshint": "~0.6.0"
+  }
+}

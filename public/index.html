@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Cloud Single Sign-on Service
+        </title>
+        <link rel="stylesheet" href="stylesheets/main.css" media="all">
+    </head>
+    
+    <body>
+        <div id="ll">
+            <div class="layout">
+            </div>
+            <div id="llooggin">
+                <div class="llooggin logo">
+                    lloogg.in
+                </div>
+                <div>
+                    Cloud Single Sign-on Service
+                </div>
+                <div>
+                    Username:
+                </div>
+                <div>
+                    <input type="text" name="username" id="username" />
+                </div>
+                <div>
+                    Password:
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="remember" id="remember" />
+                        Remember me
+                    </label>
+                </div>
+                <div id="signin_return" style="display:none">
+                </div>
+                <div>
+                    <button class="llooggin" onclick="signin()">
+                        lloogg.in
+                    </button>
+                </div>
+                <div>
+                    New to lloogg.in?
+                    <a style="cursor:pointer;text-decoration:underline;color:#fff" onclick="showrl()">CREATE AN ACCOUNT</a>
+                </div>
+            </div>
+        </div>
+        <div id="rl" style="display:none">
+            <div class="layout">
+            </div>
+            <div id="create">
+                <div>
+                    First Name:
+                </div>
+                <div>
+                    <input type="text" name="firstname" id="fname" />
+                </div>
+                <div>
+                    Last Name:
+                </div>
+                <div>
+                    <input type="text" name="lastname" id="lname" />
+                </div>
+                <div>
+                    <label id="unamelab" style="display:none">
+                        <span>
+                            The Username field must be at least 6 characters in length.
+                        </span>
+                        <span style="color:#f00;display:none">
+                            Someone already has that username. Try another?
+                        </span>
+                    </label>
+                    Username:
+                </div>
+                <div>
+                    <input type="text" name="username" id="uname" />
+                </div>
+                <div>
+                    <label id="pwdlab" style="display:none">
+                        <span>
+                            The Password field must be at least 8 characters in length.
+                        </span>
+                    </label>
+                    Password:
+                </div>
+                <div>
+                    <input type="password" name="password" id="pwd" />
+                </div>
+                <div>
+                    <label>
+                        Remember me
+                        <input type="checkbox" name="remember" id="rem" />
+                    </label>
+                </div>
+                <div id="signup_return" style="display:none">
+                </div>
+                <div>
+                    <button class="llooggin" onclick="signup()">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+            <div id="kb" style="display:none">
+            </div>
+        </div>
+        <div id="loader" style="display:none">
+            Submitted to the server...
+        </div>
+        <div id="kbfull">
+        </div>
+        <script src="javascripts/main.js">
+                                                                        
+        </script>
+    </body>
+
+</html>
